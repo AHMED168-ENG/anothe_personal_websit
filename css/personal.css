@@ -1,0 +1,1425 @@
+/**
+* Template Name: Personal - v2.0.1
+* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+
+
+
+
+/* start body */
+body
+{
+    margin:0;
+    padding:0;
+    background-image:url('../img/bg.jpg');
+    background-size:cover;
+    background-attachment:fixed
+}
+/* start body */
+
+
+
+
+
+
+
+
+/* ==================================================================================================================================== */
+
+
+/* start introduction */
+.up
+{
+    height:100vh;
+    width: 100%;
+ padding-top:150px;
+
+}
+.up h2 a
+{
+    color:white;
+    font-size:60px;
+    margin-bottom: 20px;
+    font-family:serif;
+    text-decoration: none
+}
+.up p
+{
+    font-size:26px;
+    font-style:italic;
+    color:rgba(255,255,255,0.8);
+  margin-bottom: 8px
+}
+.up hr
+{
+    width:15%;
+    background:#18D26E;
+    height:1px;
+    margin-left:150px;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+.up ul li 
+{
+    display:inline-block;
+    margin-right: 20px
+}
+.up ul li a
+{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.6);
+    text-transform:capitalize;
+    font-size:16px;
+    font-weight:450
+}
+.up ul li .active
+{
+    color:white
+}
+
+.up ul li span
+{
+    display:block;
+    transition: 0.4s
+   
+}
+.up ul li .one
+{
+    width: 50%;
+    background:#18D26E;
+    height:2px;
+    border-radius:4px;
+    
+}
+.up ul li .tow
+{
+    width: 0;
+    background:#18D26E;
+    height:2px;
+    border-radius:4px 
+}
+.up ul li a:hover ~ .tow
+{
+    width: 50%;
+    background:#18D26E;
+    height:2px;
+    border-radius:4px 
+}
+.up i
+{
+    color:white;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    text-align: center;
+    line-height:40px;
+    background:#333;
+    margin-right: 7px;
+    margin-top: 20px;
+    transition: 0.3s
+}
+.up i:hover
+{
+    background:#18D26E;
+    cursor:pointer
+}
+
+ .down
+{
+    position:fixed;
+    right:0;
+    bottom:0;
+    padding:15px;
+    color:rgba(255,255,255,0.8);
+    z-index: 1
+}
+ .down span
+{
+    color:#18D26E;
+    font-size:14px;
+    font-weight:500;
+    cursor:pointer
+}
+/* end introduction and home */
+
+/* ==================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================================================================================== */
+
+
+/* start nave bar */
+.nave .navbar
+{
+   background:rgba(0,0,0,0.8);
+    height:70px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 4
+}
+.nave .navbar .navbar-brand,
+.nave .navbar .navbar-brand:hover
+{
+    font-size:35px;
+    color:white;
+    font-family: auto;
+    font-weight: 450
+}
+.nave .navbar-light .navbar-nav .nav-link
+{
+    color:rgba(255,255,255,0.6);
+    margin: 0 ;
+    padding: 0;
+}
+.nave .navbar-light .navbar-nav .active
+{
+    color:white
+}
+
+.nave .navbar-light .navbar-nav .nav-link:hover
+{
+    color:white;
+
+}
+.nave ul li
+{
+    margin: 0 17px
+}
+.nave ul li span
+{
+    display:block;
+    transition: 0.4s
+   
+}
+.nave ul li .one
+{
+    width: 50%;
+    background:#18D26E;
+    height:2px;
+    border-radius:4px
+}
+.nave ul li .tow
+{
+    width: 0;
+    background:#18D26E;
+    height:2px;
+    border-radius:4px 
+}
+.nave ul li a:hover ~ .tow
+{
+    width: 50%;
+    background:#18D26E;
+    height:2px;
+    border-radius:4px 
+}
+/* end navebar */
+
+
+/* ==================================================================================================== */
+
+/* start about */
+.about,.resomy
+{
+    position:relative;
+    z-index:2;
+    top:120px;
+    background:rgba(0, 0, 0, 0.9);
+    padding:20px;
+    width:85%;
+    margin: auto;
+    margin-bottom: 50px
+}
+/* =============== start section ui-ux ========= */
+
+.about .ui-ux .row header span:first-child
+{
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.8);
+    font-size:17px;
+    margin-right: 20px
+}
+.about .ui-ux .row header hr
+{
+    background:#18D26E;
+    width: 10%;
+    display: inline-block;
+    margin:5px 5px 5px -7px;
+}
+.about .ui-ux .row header h2
+{
+    color:white;
+    margin-top: 10px;
+    font-size:35px;
+    font-family: serif;
+    margin-bottom: 30px
+    
+}
+.about .ui-ux .row .left div
+{
+    background-image:url('../img/me.jpg');
+    height:400px;
+    background-size:cover
+}
+.about .ui-ux .row .right .sucand h2
+{
+    color:#18d26e;
+    margin-bottom: 20px;
+    font-size:26px;
+    font-weight: 700
+}
+.about .ui-ux .row .right .sucand p
+{
+    font-style:italic;
+    color:white;
+    font-size:17px;
+}
+.about .ui-ux .row .right .sucand .pairant
+{
+    overflow: hidden;
+    margin-bottom:10px
+}
+.about .ui-ux .row .right .sucand .pairant .child1
+{
+    width:50%
+}
+.about .ui-ux .row .right .sucand .pairant .child1 ul li
+{
+    color:rgba(255,255,255,0.9);
+    margin:0 0 9px 0;
+    
+}
+.about .ui-ux .row .right .sucand .pairant .child1 ul li big
+{
+    color:white;
+    margin: 0 4px 0 0px
+}
+.about .ui-ux .row .right .sucand .pairant .child1 ul li::before
+{
+    content: "\f105";
+    font-family: 'fontawesome';
+    color:#18d26e;
+    margin-right: 10px;
+    font-size:20px
+}
+/* =============== end section ui-ux ========= */
+
+
+
+
+
+
+
+
+/* =============== start counter ========= */
+.about .reder
+{
+    padding:45px 0;
+    text-align: center
+}
+.about .reder .row
+{
+    margin: 0
+}
+.about .reder .row .firest div 
+{
+    padding:30px 0 13px 0;
+    background:rgba(255, 255, 255, 0.08)
+}
+.about .reder .row .firest div i
+{
+    color:white;
+    display:block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgba(255, 255, 255, 0.1);
+    color:#18d26e;
+    text-align: center;
+    line-height:50px;
+    position: absolute;
+    top:-22px;
+    left:calc(50% - 25px);
+    font-size:22px
+    
+}
+.about .reder .row .firest div span
+{
+    font-size:36px;
+    color:white;
+    font-family: sans-serif
+}
+.about .reder .row .firest div p
+{
+    font-size:16px;
+    color:white;
+    font-weight:500
+}
+/* =============== end counter ========= */
+
+
+
+/* =============== start skils ========= */
+.about .skils
+{
+    padding:40px 0
+}
+.about .skils header
+{
+    margin-bottom: 20px
+}
+.about .skils header span
+{
+    color:rgba(255,255,255,0.7);
+    font-weight: 500;
+    text-transform:uppercase;
+    
+}
+.about .skils header hr
+{
+    display: inline-block;
+    background:#18d26e;
+    width:10%;
+    margin:5px
+}
+.about .skils div .pairant
+{
+    margin-bottom: 20px
+}
+.about .skils div .pairant .writ
+{
+    overflow: hidden;
+    font-weight:550;
+    color:white;
+}
+.about .skils div .pairant .progres
+{
+    background:#18d26e;
+    height: 10px;
+    background:#3B3B3B
+}
+.about .skils div .pairant .progres span
+{
+    background:#18d26e;
+    display: block;
+    height:100%
+}
+
+@keyframes sass
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:100%
+    }
+}
+@keyframes bootstrap
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:73%
+    }
+}
+@keyframes html
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:65%
+    }
+}
+@keyframes c-sharp
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:80%
+    }
+}
+@keyframes c-plus
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:60%
+    }
+}
+@keyframes css
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:53%
+    }
+}
+@keyframes jquary
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:65%
+    }
+}
+@keyframes java-script
+{
+    from{
+        width:0%
+    }
+    tow{
+        width:90%
+    }
+}
+/* =============== end skils ========= */
+
+
+
+
+
+
+
+
+
+
+
+/* =============== start interest ========= */
+.about .interest
+{
+    padding:20px 0;
+}
+.about .interest header
+{
+    overflow: hidden;
+    margin-bottom: 20px
+}
+.about .interest header span
+{
+    color:rgba(255,255,255,0.7);
+    font-weight:500;
+    display: inline-block;
+}
+.about .interest header hr
+{
+    display:inline-block;
+    width:10%;
+    background:#18D26E;
+    margin: 0;
+    margin:5px
+}
+.about .interest .row div
+{
+    margin-bottom:10px
+}
+.about .interest .row div .firest
+{
+    overflow: hidden;
+    background:rgba(255, 255, 255, 0.12);
+    height:70px;
+    color:white;
+    padding:0 20px;
+    transition: 0.4s
+    
+}
+.about .interest .row div .firest:hover
+{
+    background:#353535
+}
+.about .interest .row div .firest div
+{
+    height: 100%;
+    line-height:70px;
+}
+.about .interest .row div .firest div:first-child
+{
+    font-size:30px;
+    margin-right: 20px
+}
+.about .interest .row div .firest div:last-child
+{
+    font-size:17px;
+    font-weight:550
+}
+/* =============== end interest ========= */
+
+
+
+
+
+
+
+
+/* =============== start TESTIMONIALS ========= */
+.about .TESTIMONIALS
+{
+    padding:20px 0;
+}
+.about .TESTIMONIALS header span:first-child
+{
+    color:rgba(255,255,255,0.7);
+    font-size:20px
+}
+.about .TESTIMONIALS header
+{
+    margin-bottom: 20px
+}
+.about .TESTIMONIALS header hr:last-child
+{
+    width: 10%;
+    background:#18D26E;
+    margin: 5px 0;
+    display: inline-block
+}
+.about .TESTIMONIALS .pairant .child .up1
+{
+    background:rgba(255, 255, 255, 0.1);
+    padding:20px;
+    height:220px;
+    border-radius:7px
+    
+}
+.about .TESTIMONIALS .pairant .child .up1 p
+{
+    color:rgba(255,255,255,0.8);
+    font-style:italic;
+    font-size:18px;
+    line-height: 1.5
+}
+.about .TESTIMONIALS .pairant .child .up1 img
+{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    padding:6px;
+    background:rgba(255,255,255,0.1);
+    margin-left: 40px
+}
+.about .TESTIMONIALS .pairant .child .down1
+{
+    padding-top:50px;
+    padding-left: 30px
+}
+.about .TESTIMONIALS .pairant .child .down1 h4
+{
+    color:rgba(255,255,255,0.8);
+    font-family: serif;
+    font-size:22px;
+    margin-bottom: 0;
+    text-transform: capitalize
+}
+.about .TESTIMONIALS .pairant .child .down1 p
+{
+    color:rgba(255,255,255,0.8);
+    font-weight:550;
+}
+.about .TESTIMONIALS .pairant .child .up1 p::before
+{
+    content: "\f10d";
+    font-family: 'fontawesome';
+    margin-right: 7px;
+    font-size: 18px;
+    color: #807F7D;
+}.about .TESTIMONIALS .pairant .child .up1 p::after
+{
+    content: "\f10d";
+    font-family: 'fontawesome';
+    margin-left: 7px;
+    font-size: 18px;
+    color: #807F7D;
+}
+.owl-theme .owl-dots .owl-dot.active span
+{
+    background:#18D26E !important
+}
+.owl-theme .owl-dots .owl-dot span
+{
+    background:white !important
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot
+{
+    outline:none
+}
+
+/* =============== end TESTIMONIALS ========= */
+/* end about */
+/* ==================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================================================================================== */
+/* start resomy */
+.resomy
+{
+    position:relative;
+    z-index:2;
+    top:120px;
+    background:rgba(0, 0, 0, 0.9);
+    padding:20px;
+    width:85%;
+    margin: auto;
+    margin-bottom: 50px
+}
+.resomy .row
+{
+    margin: 0
+}
+.resomy .row header
+{
+    margin-bottom: 30px
+}
+.resomy .row header h4
+{
+    color:rgba(255,255,255,0.8);
+    display:inline-block;
+}
+.resomy .row header hr
+{
+    display: inline-block;
+    background:#18D26E;
+    margin: 5px;
+    width: 10%
+}
+.resomy .row header h1
+{
+    color:white;
+    font-family: inherit;
+}
+.resomy .row .left .child1 > h2
+{
+    color:white;
+    font-family: serif;
+    margin-bottom:25px
+}
+.resomy .row .left .child1 div
+{
+    border-left:2px solid gray;
+    padding-left: 30px
+}
+.resomy .row .left .child1 div h2
+{
+    position: relative;
+    top:-7px;
+    color:#18D26E;
+    font-size:25px;
+    font-family:inherit
+    
+}
+.resomy .row .left .child1 div h2::before
+{
+    content:"";
+    position: absolute;
+    width:17px;
+    height:17px;
+    border-radius:50%;
+    background:#18D26E;
+    left: -39px;
+    top:6px
+}
+.resomy .row .left .child1 div p
+{
+    color:white;
+    font-style: italic;
+    font-size:16px;
+    line-height:1.5
+}
+.resomy .row .left .child1 div ul
+{
+    padding:0;
+    margin-left: 17px;
+    
+}
+.resomy .row .left .child1 div ul li
+{
+    color:white;
+    margin-bottom: 10px;
+    font-weight:450;
+    font-size:17px
+}
+.resomy .row .left .child2
+{
+    padding:20px 0
+}
+.resomy .row .left .child2 > h4
+{
+    color:white;
+    font-size:30px;
+    font-family: serif;
+    font-weight: 550;
+    margin-bottom: 22px
+}
+.resomy .row .left .child2 .firest
+{
+    border-left:2px solid gray;
+    padding-left: 30px;
+    
+}
+.resomy .row .left .child2 .firest h5{
+    position: relative;
+    top:-7px;
+    color:#18D26E;
+    
+}
+.resomy .row .left .child2 .firest h5::before
+{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#18D26E;
+    position: absolute;
+    left: -41px;
+    top:5px
+    
+}
+.resomy .row .left .child2 .firest span
+{
+    background:rgba(255, 255, 255, 0.15);
+    color:white;
+    padding:5px 12px;
+    font-weight:550;
+    display: inline-block;
+    margin-bottom: 15px
+}
+.resomy .row .left .child2 .firest p
+{
+    color:white;
+    font-style: italic
+}
+.resomy .row .left .child2 .firest p:last-of-type
+{
+    margin-bottom: 0
+}
+
+.resomy .row .left .child2 .sucand
+{
+    border-left: 2px solid gray;
+    padding-left: 30px;
+    padding-top: 20px
+}
+.resomy .row .left .child2 .sucand h5
+{
+    color:#18D26E;
+    position: relative
+    
+}
+.resomy .row .left .child2 .sucand h5::before
+{
+    content: "";
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -41px;
+    top:5px;
+    background:#18D26E
+    
+}
+.resomy .row .left .child2 .sucand span
+{
+    background:rgba(255, 255, 255, 0.15);
+    color:white;
+    padding:5px 12px;
+    font-weight:550;
+    display: inline-block;
+    margin-bottom: 15px
+}
+.resomy .row .left .child2 .sucand p
+{
+    color:white;
+    font-style: italic
+}
+.resomy .row .right h2
+{
+    color:white;
+    font-family: serif;
+    margin-bottom: 20px
+}
+.resomy .row .right .pairant2
+{
+    border-left:2px solid gray;
+    padding-left:30px
+}
+.resomy .row .right .pairant2 .up2 h3
+{
+    color:#18D26E;
+    position: relative;
+    top:-8px
+}
+.resomy .row .right .pairant2 .up2 h3::before
+{
+    content:"";
+    width:20px;
+    height:20px;
+    position: absolute;
+    top:8px;
+    left:-40px;
+    background:#18D26E;
+    border-radius: 50%
+}
+.resomy .row .right .pairant2 .up2 span
+{
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 5px 12px;
+    font-weight: 550;
+    display: inline-block;
+    margin-bottom: 15px
+}
+.resomy .row .right .pairant2 .up2 p
+{
+    color:white;
+    font-style: italic;
+    font-size:17px
+}
+.resomy .row .right .pairant2 .up2 ul
+{
+    padding: 0;
+    margin-left:20px;
+    margin-bottom: 30px
+
+    
+}
+.resomy .row .right .pairant2 .up2 ul li
+{
+    color:white;
+    font-size: 17px;
+    margin-bottom:7px;
+    font-style: italic
+}
+/* end resomy */
+
+/* ==================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+/* ==================================================================================================================================== */
+/* ==================== start resomy =================  */
+
+.servaces
+{
+    position:relative;
+    z-index:2;
+    top:120px;
+    background:rgba(0, 0, 0, 0.9);
+    padding:25px;
+    width:85%;
+    margin: auto;
+    margin-bottom: 50px
+}
+.servaces header h4
+{
+    color:#aaaaaa;
+    font-size:15px;
+    display:inline-block;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    position: relative;
+    
+   
+
+}
+.servaces header h4::after
+{
+    content:"";
+    width:150px;
+    background:#18d26e;
+    display: inline-block;
+    height: 1.5px;
+    position: absolute;
+    top:8px;
+    left:85px;
+    margin-left: 20000px
+    
+    border-radius: 3px;
+    
+    
+}
+
+.servaces header h2
+{
+    color:white;
+    font-weight:550;
+    font-family:serif;
+    margin-bottom: 30px
+}
+.servaces .row div .firest
+{
+    background:rgba(204, 204, 204, 0.1);
+    transition: 0.4s;
+    text-align: center;
+    padding:60px 20px;
+}
+.servaces .row div
+{
+    margin-bottom:15px
+}
+.servaces .row div .firest .icon
+{
+    width: 65px;
+    height: 65px;
+    padding:8px;
+    background:rgba(255, 255, 255, 0.15);
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius:4px;
+}
+.servaces .row div .firest .icon i
+{
+    width:65px;
+    height:65px;
+    line-height: 60px;
+    background:#18D26E;
+    font-size:25px;
+    border-radius:4px; 
+    color:white;
+    transition: 0.4s
+   
+}
+.servaces .row div .firest h4
+{
+    font-family:serif;
+    font-weight: 550;
+    font-size:27px;
+    color:rgba(255,255,255,0.7);
+}
+.servaces .row div .firest p
+{
+    font-style: italic;
+    color:rgba(255,255,255,0.7);
+
+}
+.servaces .row div .firest:hover{
+    color:white;
+    background:#18D26E;
+    color:white
+}
+.servaces .row div .firest:hover i
+{
+    background:white;
+    color:#18D26E;
+}
+.servaces .row div .firest:hover h4,
+.servaces .row div .firest:hover p
+{
+    color:white
+}
+/* ==================== start resomy =================  */
+
+
+/* ==================================================================================================================================== */
+
+
+
+
+
+
+
+
+/* ==================================================================================================================================== */
+
+/* ================= start portofolio ====================== */
+.portofolio
+{
+    position:relative;
+    z-index:2;
+    top:120px;
+    background:rgba(0, 0, 0, 0.9);
+    padding:25px;
+    width:85%;
+    margin: auto;
+    margin-bottom: 50px    
+}
+.portofolio header h5
+{
+    color:rgba(255,255,255,.7);
+    position: relative;
+}
+.portofolio header h5::after
+{
+    content:"";
+    width: 120px;
+    height:1.5px;
+    border-radius:4px;
+    background:#18d26e;
+    position: absolute;
+    top:12px;
+    left:113px
+}
+.portofolio header h2
+{
+    color:white;
+    font-family:serif;
+    margin-bottom: 20px
+}
+.portofolio ul
+{
+    margin-bottom:30px;
+    width: 100%
+}
+.portofolio ul li
+{
+    display: inline-block;
+    color:white;
+    font-weight:600;
+    margin:0 4px;
+    padding:5px 20px;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer; 
+    transition: 0.4s
+}
+.portofolio .row
+{
+    margin: 0
+}
+.portofolio ul li:hover{
+    background:#18d26e;
+}
+.portofolio ul li:first-of-type
+{
+    background:#18d26e
+}
+.portofolio .row div
+{
+    perspective: 1000px;
+    margin-bottom: 15px
+}
+.portofolio .row div .pairant
+{
+    position:relative;
+    height:240px;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: 0.7s
+}
+.portofolio .row div .pairant:hover
+{
+    transform: rotatey(180deg)
+}
+.portofolio .row div .pairant .child1
+{
+    background-size:cover;
+    background-position: center;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden
+}
+.portofolio .row div .pairant .child2
+{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    backface-visibility: hidden;
+    transform:rotatey(180deg);
+    background-size:cover;
+}
+.portofolio .row div .pairant .child2 .over
+{
+    width: 100%;
+    height:100%;
+    transform: scale(0.7,0.7);
+    opacity:0;
+    transition: 0.5s;
+    padding-top:100px;
+    color:white;
+    background:rgba(0,0,0,0.6);
+    backface-visibility: hidden;
+    transition-delay: 0.7s
+}
+.portofolio .row div .pairant:hover .child2 .over
+{
+    opacity: 1;
+    transform: scale(1);
+    
+}
+.portofolio .row div .pairant .child2 .over i
+{
+    transition:0.4s;
+    cursor: pointer;
+    margin: 0 2px
+}
+.portofolio .row div .pairant .child2 .over p
+{
+    margin-bottom: 0
+}
+.portofolio .row div .pairant .child2 .over i:hover
+{
+    color:#18d26e
+}
+.portofolio .row div .pairant .child2 .over span
+{
+    position: absolute;
+    background: white;
+}
+.portofolio .row div .pairant .child2 .over span:first-child
+{
+    left:13px;
+    top:13px;
+    width:65px;
+    height:4px;
+}
+.portofolio .row div .pairant .child2 .over span:nth-child(2)
+{
+    left:13px;
+    top:17px;
+    height:65px;
+    width:4px
+}
+.portofolio .row div .pairant .child2 .over span:nth-child(3)
+{
+    right:13px;
+    bottom:13px;
+    width:4px;
+    height:65px;
+}
+.portofolio .row div .pairant .child2 .over span:nth-child(4)
+{
+    right:17px;
+    bottom:13px;
+    width:65px;
+    height:4px;   
+}
+/* ================= end portofolio ====================== */
+/* ==================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================================================================================== */
+/* ======================= start contact======================== */
+.contact
+{
+    position:relative;
+    z-index:2;
+    top:120px;
+    background:rgba(0, 0, 0, 0.9);
+    padding:25px;
+    width:85%;
+    margin: auto;
+    margin-bottom: 50px     
+}
+.contact header h4
+{
+    color:rgba(255,255,255,0.7);
+    position: relative;
+    font-size:16px;
+    letter-spacing: 2px
+
+}
+.contact header h4::after{
+    content: "";
+    width:110px;
+    height:1.5px;
+    background:#18d26e;
+    position: absolute;
+    left:90px;
+    top:10px;
+}
+.contact header h2
+{
+    font-family: serif;
+    color:white;
+    font-weight:600;
+    margin-bottom: 30px
+}
+.contact .row{
+    margin: 0
+}
+.contact .row > div
+{
+    margin-bottom: 20px
+}
+.contact .row .pairant
+{
+    padding:20px;
+    background:rgba(255, 255, 255, 0.08);
+    overflow: hidden
+}
+.contact .row .pairant .child1
+{
+    margin-right: 20px;
+}
+.contact .row .pairant .child1 i
+{
+    color:#18d26e;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    font-size:22px;
+    width:50px;
+    height:50px;
+    text-align: center;
+    line-height: 50px
+}
+.contact .row .pairant .child2 h4
+{
+    color:rgba(255, 255, 255, 0.5);
+    font-weight:700;
+    font-size:20px;
+    margin-bottom: 13px
+}
+.contact .row .pairant .child2 p
+{
+    color:white;
+    font-style: italic;
+    margin-bottom: 5px
+}
+.contact .row .form
+{
+    padding:30px;
+    background:rgba(255, 255, 255, 0.08);
+    position: relative
+    
+}
+.contact .row .form::after
+{
+    content: "";
+    border-top:0px solid red;
+    border-right:0px solid blue;
+    border-bottom:70px solid rgba(0, 0, 0, 0.9);
+    border-left:70px solid rgba(255, 255, 255, 0.08);
+    position: absolute;
+    right:0;
+    bottom:0
+    
+}
+.contact .row .form input
+{
+    width:49%;
+    background:rgba(255, 255, 255, 0.08);
+    padding:9px 15px;
+    border:0;
+    margin-bottom: 15px;
+    font-weight: 550;
+    outline-color: transparent
+}
+.contact .row .form input:nth-child(1)
+{
+    margin-right: 15px
+}
+.contact .row .form input:nth-child(3)
+{
+    display: block;
+    width: 100%;
+    
+}
+.contact .row .form textarea
+{
+   width:100%;
+    background:rgba(255, 255, 255, 0.08);
+    border:0;
+    padding:15px;
+    height:150px;
+    font-weight:550;
+    margin-bottom:17px;
+    outline-color: transparent;
+   
+
+}
+.contact .row .form button
+{
+    display: block;
+    margin: auto;
+    border:0;
+    background:#15BD63;
+    padding:8px 25px;
+    color:white;
+    font-weight:500;
+    font-size:18px;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ======================= end contact======================== */
+/* ==================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
